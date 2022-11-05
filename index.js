@@ -24,7 +24,7 @@ app.post('/', (req, res) => {
 
   if (isNaN(x) || isNaN(y))
     return res.send({
-      error: "Stop being sneaky, put in the right parameters"
+      error: "Wrong values"
     })
 
   let result = ''
